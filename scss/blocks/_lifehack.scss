@@ -1,0 +1,45 @@
+.lifehack {
+    padding-top: 50px;
+    &__title {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        padding-bottom: 30px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__photo {
+        img {
+            border-radius: 50%;
+            padding-bottom: 10px;
+            padding-right: 10px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    &__text {
+        background-color: #ECECEC;
+        padding: 18px 20px;
+        border-radius: 5px;
+
+        p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.slider-section {
+    padding-top: 70px;
+}
+
+.slider__title {
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.card {
+    position: relative;
+    max-width: 272px;
+    box-shadow: 4px 8px 16px rgba(64, 68, 77, 0.08);
+    border-radius: 10px;
+    margin: 0 15px 20px 15px;
+    &__inner {
+        padding: 15px;
+    }
+
+    &__tags {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    &__tag {
+        display: table;
+        margin-bottom: 5px;
+    }
+
+    &__img {
+        text-align: center;
+    }
+
+    &__rate {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        span {
+            color: #949494;
+            font-size: 14px;
+            padding-left: 10px;
+        }
+
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.4;
+        padding-bottom: 14px;
+        padding-top: 20px;
+    }
+
+    &__price {
+
+        &__striked {
+            font-weight: 500;
+            font-size: 14px;
+            color: #949494;
+            padding-bottom: 6px;
+        }
+
+        &__actual {
+            font-weight: 700;
+            font-size: 20px;
+            padding-bottom: 6px;
+        }
+
+        &__bonus {
+            font-weight: 400;
+            font-size: 14px;
+            span {
+                color: #DF002C;
+            }
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        bottom: 17px;
+        right: 15px;
+
+        border: none;
+        border-radius: 4px;
+        background-color: $rose;
+        padding: 7px 19px;
+        cursor: pointer;
+    }
+}
+
+.card-heart {
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+}

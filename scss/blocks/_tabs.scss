@@ -1,0 +1,262 @@
+.tabs {
+    padding-top: 50px;
+}
+
+.tabheader {
+    display: flex;
+    column-gap: 10px;
+    background-color: #ECECEC;
+    max-width: 660px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+    &__item {
+        font-weight: 500;
+        font-size: 13px;
+        cursor: pointer;
+        border-radius: 10px 10px 0px 0px;
+        padding: 6px 22px;
+        background-color: #fff;
+    }
+    &__item-active {
+        border-bottom: 2px solid $red;
+    }
+}
+
+.description {
+
+    &__wrapper {
+        box-shadow: 0px 8px 15px rgba(162, 162, 162, 0.08);
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.4;
+
+        span {
+            font-size: 20px;
+            padding-right: 10px;
+        }
+    }
+}
+
+.character {
+    box-shadow: 0px 8px 15px rgba(162, 162, 162, 0.08);
+    border-radius: 10px;
+    padding: 20px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 16px;
+
+        &__title {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.reviews {
+
+    &__header {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    &__rate {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        padding-left: 26px;
+        &__text {
+            color: $second-gray;
+            font-size: 14px;
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        right: 0;
+    }
+
+    &__filter {
+        color: $second-gray;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 30px 0px;    
+    }
+
+    &__content {
+        padding: 30px 0px;
+        border-bottom: 1px solid #ECECEC;
+        border-top: 1px solid #ECECEC;
+
+        &:nth-child(even) {
+            border-top: none;
+        }
+    }
+
+}
+
+.review {
+    position: relative;
+    
+    &__photo {
+        position: absolute;
+        top: -5px;
+        left: 0px;
+    }
+
+    &__info {
+        padding-left: 70px;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    &__date {
+        color: #949494;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    &__rate {
+        padding-top: 7px;
+    }
+
+    &__content {
+        padding-left: 70px;
+
+        p {
+            padding: 20px 0px;
+        }
+
+    }
+
+    &__reaction {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+
+        span {
+            color: #949494;
+            font-weight: 500;
+            font-size: 14px;
+            padding-left: 4px;
+            padding-right: 15px;
+        }
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    &__answer {
+        color: $second-gray;
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 20px;
+
+        i {
+            padding-left: 10px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 1.4;
+            padding-top: 10px;
+            padding-bottom: 0;
+        }
+    }
+}
+
+.garant {
+    &__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.4;
+        padding-bottom: 40px;
+    }
+
+    &__wrapper {
+        display: flex;
+        column-gap: 30px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        padding: 20px;
+
+        box-shadow: 8px 8px 32px rgba(64, 68, 77, 0.08);
+        border-radius: 10px;
+
+        p {
+            color: $second-gray;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    }
+}
+
+.pay {
+
+    &__wrapper {
+        display: flex;
+        column-gap: 65px;
+        margin-bottom: 40px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        column-gap: 2px;
+    }
+
+    &__notice {
+        padding: 15px 20px;
+
+        box-shadow: 0px 8px 15px rgba(162, 162, 162, 0.08);
+        border-radius: 10px;
+
+        &__title {
+            font-weight: 600;
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+
+        &__text{
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+}

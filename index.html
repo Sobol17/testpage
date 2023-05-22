@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<script src="https://kit.fontawesome.com/03dd002589.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header id="top" class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="header__item">Интернет-магазин продуктов <br> с доставкой на дом</div>
+				<div class="header__item">
+					<p><a href="" class="header__tel">+7 (3952) 50-50-10</a></p>
+					<p><a href="" class="header__tel">+7 (914) 882-44-92</a></p>
+				</div>
+				<div class="header__item header__item-red">Заказать звонок</div>
+				<div class="header__item">Доставка: пн-пт 9.00-21.00 <br> сб-вс 9.00-19.00</div>
+				<div class="search">
+					<div class="search__wrapper">
+						<img src="img/search.png" alt="">
+					</div>
+					<div class="search__text">Поиск</div>
+				</div>
+			</div>
+		</div>
+		<nav class="nav">
+			<div class="container">
+				<div class="nav__wrapper">
+					<div class="nav__item nav__item-w-icon">
+						<img src="img/catalog.png" alt="">
+						<p>Каталог</p>
+					</div>
+					<div class="nav__item nav__item-w-icon">
+						<img src="img/pr.png" alt="">
+						<p>Акции</p>
+					</div>
+					<div class="nav__item">Доставка и оплата</div>
+					<div class="nav__item">О магазине</div>
+					<div class="nav__item">Как купить</div>
+					<div class="nav__item">ETExpert</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="">Главная</a></li>
+				<li><a href="">Каталог</a></li>
+				<li><a href="">Новинки товаров</a></li>
+				<li><a href="">Креветка</a></li>
+			</ul>
+
+			<div class="product">
+				<div class="product__first-column">
+					<div class="product__tabs">
+						<ul class="product__tags">
+							<li class="product__tag product__tag-yellow">хит</li>
+							<li class="product__tag product__tag-red">акция</li>
+							<li class="product__tag product__tag-green">рекомендуем</li>
+							<li class="product__tag product__tag-blue">заморозка</li>
+						</ul>
+						<div class="product__photos">
+							<div class="photo__preview">
+								<div class="photo__preview__item">
+									<img src="img/product3.png" alt="">
+								</div>
+								<div class="photo__preview__item">
+									<img src="img/product2.png" alt="">
+								</div>
+								<div class="photo__preview__item">
+									<img src="img/product1.png" alt="">
+								</div>
+							</div>
+							<div class="photo__main">
+								<img class="main-photo show" src="img/product3.png" alt="">
+								<img class="main-photo hide" src="img/product2.png" alt="">
+								<img class="main-photo hide" src="img/product1.png" alt="">
+								<button class="photo__main__btn btn-prev"></button>
+								<button class="photo__main__btn btn-next"></button>
+							</div>
+						</div>
+						<div class="product__code">Код товара: УТ000003852</div>
+					</div>
+					<div class="nutric">
+						<h3 class="nutric__title">Пищевая ценность на 100 г</h3>
+						<div class="nutric__wrapper">
+							<div class="nutric__item">
+								<p>7.8 г</p>
+								<p>Белки</p>
+							</div>
+							<div class="nutric__item">
+								<p>8.1 г</p>
+								<p>Жиры</p>
+							</div>
+							<div class="nutric__item">
+								<p>23.4 г</p>
+								<p>Углеводы</p>
+							</div>
+							<div class="nutric__item">
+								<p>146 ккал</p>
+								<p>Калории</p>
+							</div>
+						</div>
+					</div>
+					<div class="tg-link">
+						<div class="tg-link__text">
+							Актуальные обзоры на продукты, ответы на Ваши вопросы - все это в телеграм канале
+						</div>
+						<button class="tg-link__btn">
+							<img src="img/tg.png" alt="">
+							<p>Вступить</p>
+						</button>
+					</div>
+				</div>
+				<div class="product__second-column">
+					<div class="product__header">
+						<h1 class="product__title">Креветка в панировке "Панко" калибр 21/25 "Fish and More" 1 кг (Вьетнам)</h1>
+						<div class="product__like"><i data-like class="fa-solid fa-heart"></i></div>
+					</div>
+					<div class="product__rate">
+						<img src="img/star.png" alt="">
+						<div class="product__rate__text">4.7 </div>
+						<div class="product__rate__text">(2000 оценок) </div>
+					</div>
+					<div class="product__price">1 267 ₽/шт<span><s>1500 ₽/шт</s></span></div>
+					<div class="product__bonus"><span>+5</span> бонусов</div>
+					<div class="product__cart">
+						<button class="btn-rose product__cart__btn">
+							<img src="img/cart.png" alt="">
+							<p>В корзину</p>
+						</button>
+						<div class="product__cart__stock">
+							<img src="img/circle.png" alt="">
+							<p>В наличии много</p>
+						</div>
+						<div class="product__cart__bought
+						">Купили более 1000 раз</div>
+					</div>
+					<div class="product__delivery">
+						<h3 class="product__delivery__title">Способ получения:</h3>
+						<div class="delivery__header">
+							<div class="delivery__header__item delivery__header__item-active">
+								<svg width="35" height="20" viewBox="0 0 35 20" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3.18182 0H23.8636L28.6364 6.66667H31.8182C33.5841 6.66667 35 8.15 35 10V15H31.8182C31.8182 16.3261 31.3153 17.5979 30.4203 18.5355C29.5252 19.4732 28.3113 20 27.0455 20C25.7796 20 24.5657 19.4732 23.6706 18.5355C22.7756 17.5979 22.2727 16.3261 22.2727 15H12.7273C12.7273 16.3261 12.2244 17.5979 11.3294 18.5355C10.4343 19.4732 9.22035 20 7.95455 20C6.68874 20 5.47478 19.4732 4.57972 18.5355C3.68466 17.5979 3.18182 16.3261 3.18182 15H0V3.33333C0 1.48333 1.41591 0 3.18182 0ZM2.38636 2.5V6.66667H15.1136V2.5H2.38636ZM17.5 2.5V6.66667H25.6773L22.6705 2.5H17.5ZM7.95455 12.5C7.32164 12.5 6.71466 12.7634 6.26713 13.2322C5.8196 13.7011 5.56818 14.337 5.56818 15C5.56818 15.663 5.8196 16.2989 6.26713 16.7678C6.71466 17.2366 7.32164 17.5 7.95455 17.5C8.58745 17.5 9.19443 17.2366 9.64196 16.7678C10.0895 16.2989 10.3409 15.663 10.3409 15C10.3409 14.337 10.0895 13.7011 9.64196 13.2322C9.19443 12.7634 8.58745 12.5 7.95455 12.5ZM27.0455 12.5C26.4126 12.5 25.8056 12.7634 25.358 13.2322C24.9105 13.7011 24.6591 14.337 24.6591 15C24.6591 15.663 24.9105 16.2989 25.358 16.7678C25.8056 17.2366 26.4126 17.5 27.0455 17.5C27.6784 17.5 28.2853 17.2366 28.7329 16.7678C29.1804 16.2989 29.4318 15.663 29.4318 15C29.4318 14.337 29.1804 13.7011 28.7329 13.2322C28.2853 12.7634 27.6784 12.5 27.0455 12.5Z"/>
+									</svg>
+								<p>Доставка</p>
+							</div>
+							<div class="delivery__header__item">
+								<svg width="24" height="22" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+									<path d="M23.555 21.9997H0.444066C0.198371 21.9997 0 21.8381 0 21.6394L0.565942 1.75995H23.4341L24 21.6394C23.9987 21.839 23.8007 21.9997 23.555 21.9997Z"/>
+									<path d="M16.6029 4.98662C17.0567 4.98662 17.4249 4.65807 17.4249 4.25311C17.4249 3.84845 17.057 3.5199 16.6029 3.5199C16.1491 3.5199 15.7812 3.84815 15.7812 4.25311C15.7812 4.65807 16.1491 4.98662 16.6029 4.98662ZM7.39745 4.98662C7.85124 4.98662 8.21913 4.65807 8.21913 4.25311C8.21913 3.84845 7.85124 3.5199 7.39745 3.5199C6.94366 3.5199 6.57544 3.84815 6.57544 4.25311C6.57544 4.65807 6.94333 4.98662 7.39745 4.98662Z" fill="#75A101"/>
+									<path d="M11.9763 13.2483C9.20329 13.2483 6.94763 10.9925 6.94763 8.21875V4.82296C6.94763 4.63302 7.12007 4.47931 7.33303 4.47931C7.54599 4.47931 7.71843 4.63332 7.71843 4.82296V8.21875C7.71843 10.6132 9.62824 12.5603 11.9763 12.5603C14.3233 12.5603 16.2341 10.6132 16.2341 8.21875V4.82296C16.2341 4.63302 16.4066 4.47931 16.6195 4.47931C16.8325 4.47931 17.0049 4.63332 17.0049 4.82296V8.21875C17.0049 10.9922 14.7493 13.248 11.9763 13.248V13.2483Z" fill="#B5D65E"/>
+									<path d="M20.916 0L23.4452 1.75995H0.56543L3.08429 0H20.916Z" fill-opacity="0.7"/>
+									</svg>
+								<p>Самовывоз</p>
+							</div>
+						</div>
+						<div class="delivery__content">
+							<div class="content__item">
+								<div class="content__item__inner">
+									<p>1Стоимость доставки</p>
+									<p>До 3000 ₽ - 200 ₽</p>
+									<p>От 3000 ₽ - Бесплатно</p>
+								</div>
+								<div class="content__item__inner">
+									<p>Время доставки</p>
+									<p>По Иркутску и пригороду</p>
+									<p>с 9:00 до 21:00</p>
+								</div>
+							</div>
+							<div class="content__item">
+								<div class="content__item__inner">
+									<p>2Стоимость доставки</p>
+									<p>До 3000 ₽ - 200 ₽</p>
+									<p>От 3000 ₽ - Бесплатно</p>
+								</div>
+								<div class="content__item__inner">
+									<p>Время доставки</p>
+									<p>По Иркутску и пригороду</p>
+									<p>с 9:00 до 21:00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product__banner">
+						<p>Баннер</p>
+					</div>
+				</div>
+			</div>
+			<div class="tabs">
+				<ul class="tabheader">
+					<li class="tabheader__item">Описание</li>
+					<li class="tabheader__item">Характеристики</li>
+					<li class="tabheader__item">Отзывы (2)</li>
+					<li class="tabheader__item">Гарантия</li>
+					<li class="tabheader__item">Оплата</li>
+				</ul>
+				<div class="tabcontent">
+					<div class="description tabcontent__item">
+						<div class="description__wrapper">
+							<h3 class="description__title">Описание:</h3>
+							<p class="description__text">Креветка в панировке.</p>
+						</div>
+						<div class="description__wrapper">
+							<h3 class="description__title">Состав:</h3>
+							<p class="description__text">Креветки варено-мороженные очищенные, с хвостом.</p>
+						</div>
+						<div class="description__wrapper">
+							<h3 class="description__title">Преимущества:</h3>
+							<p class="description__text"><span>+</span> Эксклюзивная панировка ПАНКО - уникальная японская сухарная крошка придающая пышный и роскошный золотистый вид продуктам. Пышная, тонкая и хрустящая панировка "</p>
+							<p class="description__text"><span>+</span> легкая корочка, минимально пропитанная маслом. Меньше жира: легкость и воздушность корочки позволяет стекать лишнему маслу, делая блюда менее жирными</p>
+						</div>
+						<div class="description__wrapper">
+							<h3 class="description__title">Применение:</h3>
+							<p class="description__text">Креветки в панировке подойдут для приготовления вторых блюд и в качестве закуски.</p>
+						</div>
+						<div class="description__wrapper">
+							<h3 class="description__title">Рекомендации</h3>
+							<p class="description__text">Положите замороженные креветки в корзину для фритюра, обжаривайте при t 175C 5-7 мин, дайте стечь маслу в течении 10 секунд.</p>
+						</div>
+					</div>
+					<div class="character tabcontent__item">
+						<div class="character__item">
+							<h3 class="character__item__title">Бренд</h3>
+							<p>..........................................................................................................................................................................................................................................................................................................................................</p>
+							<p>Fish and More</p>
+						</div>
+						<div class="character__item">
+							<h3 class="character__item__title">Страна происхождения</h3>
+							<p>.............................................................................................................................................................................................................................................................................................................</p>
+							<p>Вьетнам</p>
+						</div>
+						<div class="character__item">
+							<h3 class="character__item__title">После вскрытия</h3>
+							<p>...................................................................................................................................................................................................................................................................................................................................</p>
+							<p> -18 ... -22</p>
+						</div>
+						<div class="character__item">
+							<h3 class="character__item__title">Готовые решения</h3>
+							<p>..........................................................................................................................................................................................................................................................................................................................................</p>
+							<img src="img/galka.png" alt="">
+						</div>
+					</div>
+					<div class="reviews tabcontent__item">
+						<div class="reviews__header">
+							<h3 class="reviews__title">Отзывы</h3>
+							<div class="reviews__rate">
+								<img src="img/star.png" alt="">
+								<div class="reviews__rate__text">4.7 </div>
+								<div class="reviews__rate__text">(2 оценки) </div>
+							</div>
+							<button class="btn-rose reviews__btn">Оставить отзыв</button>
+						</div>
+						<div class="reviews__filter">Cначала позитивные <i class="fa-solid fa-caret-down"></i></div>
+						<div class="reviews__content">
+							<div class="review">
+								<div class="review__photo">
+									<img src="img/photo.png" alt="">
+								</div>
+								<div class="review__info">
+									<span class="review__name">Лилия Сальникова</span>
+									<span class="review__date">Вчера, 21:45</span>
+									<div class="review__rate">
+										<img src="img/star.png" alt="">
+										<img src="img/star.png" alt="">
+										<img src="img/star.png" alt="">
+										<img src="img/star.png" alt="">
+										<img src="img/star.png" alt="">
+									</div>
+								</div>
+								<div class="review__content">
+									<p>Вкусные, ароматные, быстро готовить, держат форму, но при этом нежные</p>
+									<img src="img/review1.png" alt="">
+									<div class="review__reaction">
+										<img src="img/like.png" alt="">
+										<span>0</span>
+										<img src="img/dislike.png" alt="">
+										<span>0</span>
+									</div>
+									<div class="review__answer">Ответ ETexpress.ru <i class="fa-solid fa-angle-up"></i>
+										<p>Добрый день, Лилия. Спасибо за Ваш отзыв. Мы всегда рады обратной связи от клиентов. Переходите в наш ТГ-канал https://t.me/+8e9Ldw-uqlA0Zjdi, там всегда актуальные акции и обзоры продуктов из нашего интернет-магазина:)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reviews__content">
+							<div class="review">
+								<div class="review__photo">
+									<img src="img/photo.png" alt="">
+								</div>
+								<div class="review__info">
+									<span class="review__name">Анна Манькова</span>
+									<span class="review__date">10 января, 05:45</span>
+									<div class="review__rate">
+										<img src="img/star.png" alt="">
+										<img src="img/star.png" alt="">
+										<img src="img/star.png" alt="">
+										<img src="img/empty-star.png" alt="">
+										<img src="img/empty-star.png" alt="">
+									</div>
+								</div>
+								<div class="review__content">
+									<p>Один из способов приготовления - в микроволной печи. Никогда так не делайте!!! Креветки просто скукожились, и не понятно, что получилось вообще. Сухой белый кружочек..</p>
+									<img src="img/review2.png" alt="">
+									<div class="review__reaction">
+										<img src="img/like.png" alt="">
+										<span>0</span>
+										<img src="img/dislike.png" alt="">
+										<span>0</span>
+									</div>
+									<div class="review__answer">Ответ ETexpress.ru <i class="fa-solid fa-angle-down"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="garant tabcontent__item">
+						<p class="garant__text">Просим вас проверять привезенный товар при курьере: количество, качество, внешний вид.
+							При получении заказа вы всегда можете отказаться от любого доставленного товара, в соответствии с Законом РФ о правах потребителей.</p>
+						<div class="garant__wrapper">
+							<div class="garant__item">
+								<img src="img/garant1.png" alt=""></img>
+								<p>
+									При оплате онлайн средства будут возвращены в срок не позднее 30 дней с момента приёмки заказа и отказа от продуктов.
+								</p>
+							</div>
+							<div class="garant__item">
+								<img src="img/garant2.png" alt=""></img>
+								<p>
+									При оплате картами возврат наличными денежными средствами не допускается. Порядок возврата регулируется правилами международных платёжных систем.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="pay tabcontent__item">
+						<div class="pay__wrapper">
+							<div class="pay__item">
+								<img src="img/pay1.png" alt="">
+								<p>Онлайн на сайте</p>
+							</div>
+							<div class="pay__item">
+								<img src="img/pay2.png" alt="">
+								<p>Наличными курьеру</p>
+							</div>
+							<div class="pay__item">
+								<img src="img/pay3.png" alt="">
+								<p>Бесконтактная оплата</p>
+							</div>
+							<div class="pay__item">
+								<img src="img/pay4.png" alt="">
+								<p>По терминалу</p>
+							</div>
+						</div>
+						<div class="pay__notice">
+							<h3 class="pay__notice__title">Уведомление о заказе</h3>
+							<p class="pay__notice__text">После заказа доставки на сайте интернет-магазина вам придет SMS-уведомление на электронную почту, с точной суммой заказа и весом</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lifehack">
+				<div class="lifehack__title">
+					<h3>Лайфхак от шефа</h3>
+					<img src="img/fire.png" alt="">
+				</div>
+				<div class="lifehack__wrapper">
+					<div class="lifehack__photo">
+						<img src="img/chief.png" alt="">
+						<p>Ëдгор Якубов</p>
+					</div>
+					<div class="lifehack__text">
+						<p>Разогрейте масло на сковороде и поджарьте креветки на сильном огне за 1 минуту. Переверните их, добавьте мелко нарезанный чеснок и оставьте ещё на 1 минуту.</p>
+						<p>Затем перемешайте и готовьте 2 минуты. Выложите креветки на тарелку.
+							В эту же сковороду налейте вермут и лимонный сок. Доведите до кипения, жидкость должна немного загустеть. Добавьте цедру</p>
+					</div>
+				</div>
+			</div>
+			<div class="slider-section">
+				<h3 class="slider__title">Товары в категории «Новинки»</h3>
+				<div class="slider">
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo2.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star2.png" alt="">
+								<span>3</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Филе форели 1000-1400 гр свежемороженое трим "С" (Турция)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">853 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo3.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star3.png" alt="">
+								<span>0</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Филе форели 200 гр слайсы свежемороженое слабой соли (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">1373 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-section">
+				<h3 class="slider__title">Вам может понравиться</h3>
+				<div class="slider">
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+					<div class="card slider__item">
+						<div class="card__inner">
+							<ul class="card__tags">
+								<li class="product__tag card__tag product__tag-yellow">хит</li>
+								<li class="product__tag card__tag product__tag-red">акция</li>
+								<li class="product__tag card__tag product__tag-green">рекомендуем</li>
+								<li class="product__tag card__tag product__tag-blue">заморозка</li>
+							</ul>
+							<div class="card__img">
+								<img src="img/card-photo1.png" alt="">
+							</div>
+							<div class="card__rate">
+								<img src="img/star.png" alt="">
+								<span>5</span>
+								<i data-like class="fa-solid fa-heart card-heart"></i>
+							</div>
+							<div class="card__name">Мраморная говядина, мякоть Marbled Beef Pulp "Праймбиф" 0,5 кг (Россия)</div>
+							<div class="card__price">
+								<div class="card__price__striked"><s>897 ₽/шт</s></div>
+								<div class="card__price__actual">677 ₽/шт</div>
+								<div class="card__price__bonus"><span>+5</span> бонусов</div>
+							</div>
+							<button class="card__btn"><img src="img/cart.png" alt=""></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer"></footer>
+	<div data-scroll="#top" class="scroll-up">
+		<span class="scroll-up__span scroll-up__first"></span>
+		<span class="scroll-up__span scroll-up__second"></span>
+		<span class="scroll-up__span scroll-up__third"></span>
+	</div>
+
+	<div data-scroll="#top" class="chat">
+		<img src="img/chat.png" alt="">
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+</html>

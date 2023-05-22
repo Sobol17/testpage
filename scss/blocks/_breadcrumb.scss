@@ -1,0 +1,23 @@
+.breadcrumb {
+    padding: 30px 0px 35px 0px;
+
+    li {
+        display: inline;
+        font-size: 13px;
+        color: #B6B5B5;
+        font-weight: 500;
+    }
+
+    a {
+        text-decoration: none;
+        color: #B6B5B5;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    li + li::before {
+        content: "/\00a0";
+        padding: 0px 5px;
+    }
+}
